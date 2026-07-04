@@ -1,0 +1,324 @@
+{
+  "users": [
+    {
+      "id": "u_admin1",
+      "username": "Dineth_Jayasuriya",
+      "password": "Jayasuriya@2026",
+      "name": "Dineth Jayasuriya",
+      "role": "admin",
+      "email": "dineth.j_admin@gmail.com",
+      "whatsapp": "+94771234567",
+      "nic": "200155667823"
+    },
+    {
+      "id": "u_admin2",
+      "username": "Manusha_Bimsara",
+      "password": "Manusha@2010",
+      "name": "Manusha Bimsara",
+      "role": "admin",
+      "email": "managementsystermscout@gmail.com",
+      "whatsapp": "+94777887407",
+      "nic": "201023456789"
+    },
+    {
+      "id": "u_1781015643424",
+      "username": "Sun.lk",
+      "password": "123456",
+      "name": "Son Putha",
+      "role": "scout",
+      "email": "mkmanushabimsara@gmail.com",
+      "whatsapp": "07777882083",
+      "nic": "",
+      "parentPhone": "0777887507",
+      "approved": false
+    }
+  ],
+  "scouts": [
+    {
+      "id": "s_scout1",
+      "firstName": "Ruwan",
+      "lastName": "Senanayake",
+      "dob": "2012-04-12",
+      "dateJoined": "2024-01-15",
+      "membershipNo": "CMB/51/2024/04",
+      "patrol": "Eagle",
+      "nic": "",
+      "position": "Patrol Leader",
+      "address": "123 Galle Road, Colombo 03",
+      "parentName": "Sunil Senanayake",
+      "relationship": "Father",
+      "parentPhone": "+94711112222",
+      "whatsapp": "+94775556666",
+      "email": "ruwan.s@gmail.com",
+      "badgesEarned": [
+        "b_firstaid",
+        "b_pioneering"
+      ],
+      "awardsEarned": [
+        "a_pathfinder"
+      ],
+      "scoutPhoto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150"
+    },
+    {
+      "id": "s_scout2",
+      "firstName": "Nimal",
+      "lastName": "Fernando",
+      "dob": "2013-08-22",
+      "dateJoined": "2024-05-10",
+      "membershipNo": "CMB/51/2024/11",
+      "patrol": "Hawk",
+      "nic": "",
+      "position": "Member",
+      "address": "45 Parliament Road, Kotte",
+      "parentName": "Pushpa Fernando",
+      "relationship": "Mother",
+      "parentPhone": "+94722223333",
+      "whatsapp": "+94718889999",
+      "email": "nimal.fer@gmail.com",
+      "badgesEarned": [
+        "b_cooking"
+      ],
+      "awardsEarned": [],
+      "scoutPhoto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150"
+    }
+  ],
+  "patrols": [
+    "Salalihini",
+    "Woodpecker",
+    "Pigeon",
+    "Eagle",
+    "Parrot",
+    "Kingfisher",
+    "Hawk",
+    "Senior"
+  ],
+  "badges": [
+    {
+      "id": "b_firstaid",
+      "name": "First Aid Explorer",
+      "category": "Emergency Skills",
+      "description": "Demonstrate essential first-aid response, bandage application, and emergency scene signaling.",
+      "photoUrl": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=120"
+    },
+    {
+      "id": "b_pioneering",
+      "name": "Pioneering Scout",
+      "category": "Campcraft",
+      "description": "Master knots (square lash, clove hitch, sheet bend) and assemble a functional camp structure.",
+      "photoUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=120"
+    },
+    {
+      "id": "b_cooking",
+      "name": "Campfire Chef",
+      "category": "Culinary Skills",
+      "description": "Build a safe cooking fire and prepare a healthy meal for your patrol using basic utensils.",
+      "photoUrl": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=120"
+    }
+  ],
+  "awards": [
+    {
+      "id": "a_presidents",
+      "name": "President's Scout Award",
+      "description": "Highest award achieved after fulfilling all badge groups."
+    },
+    {
+      "id": "a_kingscout",
+      "name": "King Scout Ring",
+      "description": "Symbol of ultimate scout leadership and community service."
+    },
+    {
+      "id": "a_pathfinder",
+      "name": "Pathfinder Medal",
+      "description": "Awarded for exceptional route planning and physical endurance."
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Annual Patrol Camporee",
+      "date": "2026-06-15",
+      "description": "A three-day outdoor camp containing survival and navigation challenges.",
+      "type": "Camp"
+    },
+    {
+      "id": "e2",
+      "title": "Weekly Troop Meeting",
+      "date": "2026-06-20",
+      "description": "Briefing on newly updated SLSA badges and pioneering practice.",
+      "type": "Meeting"
+    },
+    {
+      "id": "e3",
+      "title": "Kotte Temple Clean-up",
+      "date": "2026-06-28",
+      "description": "Socio-civic community service to clean the temple surroundings.",
+      "type": "Service"
+    }
+  ],
+  "albums": [
+    {
+      "id": "alb_camp2025",
+      "name": "District Camporee 2025",
+      "description": "Pictures from our 3-day outdoor training camp in Hanwella.",
+      "photos": [
+        {
+          "id": "ph1",
+          "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=500",
+          "caption": "Patrol pioneering team raising the flag mast",
+          "date": "2025-08-14"
+        },
+        {
+          "id": "ph2",
+          "url": "https://images.unsplash.com/photo-1537225228614-56cc3556d7ed?w=500",
+          "caption": "Campfire song performance by Eagle Patrol",
+          "date": "2025-08-15"
+        }
+      ]
+    },
+    {
+      "id": "alb_charity",
+      "name": "Vesak Lantern Project",
+      "description": "Preparing lantern structures at Ananda Sastralaya Kotte premises.",
+      "photos": [
+        {
+          "id": "ph3",
+          "url": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=500",
+          "caption": "Scouts working together with bamboo frames",
+          "date": "2026-05-11"
+        }
+      ]
+    }
+  ],
+  "library": [
+    {
+      "id": "lib1",
+      "title": "Sri Lanka Scout Association Policy & Rules (POR)",
+      "category": "Guides",
+      "fileSize": "4.8 MB",
+      "downloadUrl": "#",
+      "addedBy": "Dineth Jayasuriya",
+      "addedAt": "2026-06-01"
+    },
+    {
+      "id": "lib2",
+      "title": "Scout Pioneering and Knot Craft Manual",
+      "category": "Outdoor Skills",
+      "fileSize": "8.2 MB",
+      "downloadUrl": "#",
+      "addedBy": "Manusha Bimsara",
+      "addedAt": "2026-06-03"
+    },
+    {
+      "id": "lib3",
+      "title": "Basic First-aid Handbook for Patrol Leaders",
+      "category": "Emergency Prep",
+      "fileSize": "2.1 MB",
+      "downloadUrl": "#",
+      "addedBy": "Dineth Jayasuriya",
+      "addedAt": "2026-06-05"
+    }
+  ],
+  "chats": [],
+  "attendance": [
+    {
+      "date": "2026-06-01",
+      "presentIds": [
+        "s_scout1"
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "presentIds": [
+        "s_scout1",
+        "s_scout2"
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_init",
+      "action": "System Seeded",
+      "details": "Initial admin accounts and default scouts created successfully.",
+      "timestamp": "2026-06-09T13:52:05.795Z",
+      "user": "System",
+      "notifiedEmail": false,
+      "notifiedWhatsapp": false
+    },
+    {
+      "id": "log_1781014914940",
+      "action": "Admin/Leader Profile Updated",
+      "details": "Profile of ADMIN 'Manusha Bimsara' updated. Email: manushabimsaramayakaduwa@gmail.com, Whatsapp: +94777887407",
+      "timestamp": "2026-06-09T14:21:54.940Z",
+      "user": "Manusha Bimsara",
+      "notifiedEmail": true,
+      "notifiedWhatsapp": true
+    },
+    {
+      "id": "log_1781015643425",
+      "action": "New Register",
+      "details": "User Son Putha registered on platform as SCOUT. Parent Phone: 0777887507.",
+      "timestamp": "2026-06-09T14:34:03.425Z",
+      "user": "Son Putha",
+      "notifiedEmail": true,
+      "notifiedWhatsapp": true
+    },
+    {
+      "id": "log_1781015697695",
+      "action": "Member Report Dispatched",
+      "details": "[Medium] Wrong Personal Details report filed by Son Putha: \"Hi\"",
+      "timestamp": "2026-06-09T14:34:57.695Z",
+      "user": "Son Putha",
+      "notifiedEmail": true,
+      "notifiedWhatsapp": true
+    },
+    {
+      "id": "log_1781015745609",
+      "action": "Member Report Resolved",
+      "details": "Report ID rep_1781015697695 is marked RESOLVED by Manusha Bimsara. Notes: Action taken. Corrective update completed successfully.",
+      "timestamp": "2026-06-09T14:35:45.609Z",
+      "user": "Manusha Bimsara",
+      "notifiedEmail": true,
+      "notifiedWhatsapp": true
+    },
+    {
+      "id": "log_1781016037748",
+      "action": "Chat Archive Cleaned",
+      "details": "Manual cleaning of all chats triggered to reduce Drive storage.",
+      "timestamp": "2026-06-09T14:40:37.748Z",
+      "user": "Manusha Bimsara",
+      "notifiedEmail": true,
+      "notifiedWhatsapp": true
+    },
+    {
+      "id": "log_1781016125671",
+      "action": "User Account Updated",
+      "details": "Admin 'Manusha_Bimsara' updated account of 'Son Putha' (scout).",
+      "timestamp": "2026-06-09T14:42:05.671Z",
+      "user": "Manusha_Bimsara",
+      "notifiedEmail": true,
+      "notifiedWhatsapp": true
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_1781015697695",
+      "type": "Wrong Personal Details",
+      "description": "Hi",
+      "priority": "Medium",
+      "reporterName": "Son Putha",
+      "reporterId": "u_1781015643424",
+      "reporterRole": "scout",
+      "timestamp": "2026-06-09T14:34:57.695Z",
+      "status": "Resolved",
+      "resolutionDetails": "Action taken. Corrective update completed successfully.",
+      "resolvedBy": "Manusha Bimsara",
+      "resolvedAt": "2026-06-09T14:35:45.609Z"
+    }
+  ],
+  "storage": {
+    "email": "managementsystermscout@gmail.com",
+    "usedBytes": 1073741824,
+    "totalBytes": 15000000000,
+    "isFull": false
+  }
+}

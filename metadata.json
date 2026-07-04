@@ -1,0 +1,6 @@
+{
+  "name": "TroopTrack Colombo Scout Tool",
+  "description": "Smart scout management system for the 51st Colombo Scout Troop, featuring interactive dashboards, attendance, badging, library, secure messaging, and photo albums with auto-notification alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
